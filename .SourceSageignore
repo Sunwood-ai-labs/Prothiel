@@ -23,3 +23,6 @@ sourcesage.egg-info
 .pytest_cache
 dist
 build
+prothiel.egg-info
+example
+test_output
