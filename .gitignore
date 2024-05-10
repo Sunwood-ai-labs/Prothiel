@@ -160,3 +160,6 @@ cython_debug/
 #.idea/
 
 SourceSageAssets
+folder/file2.py
+test_output/file1.py
+test_output/folder/file2.py
