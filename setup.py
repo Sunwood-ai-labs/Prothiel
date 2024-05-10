@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='prothiel',
-    version='0.1.1',
+    version='0.1.2',
     # PyPIに表示される長い説明文
     long_description=long_description,
     # 長い説明文のフォーマット
