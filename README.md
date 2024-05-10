@@ -1,6 +1,6 @@
 
 <p align="center">
-<img src="docs/Prothiel_icon.png" width="100%">
+<img src="https://raw.githubusercontent.com/Sunwood-ai-labs/Prothiel/main/docs/Prothiel_icon.png" width="100%">
 <br>
 <h1 align="center">Prothiel</h1>
 <h2 align="center">
