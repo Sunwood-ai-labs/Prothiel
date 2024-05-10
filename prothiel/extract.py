@@ -14,8 +14,9 @@ def extract_code_blocks(markdown_content, root_path, file_path_pattern, code_blo
         if code_block_match:
             code_block = code_block_match.group(1)
             print(colored(f"File path: {file_path}", 'blue'))
-            print(colored("Code block:", 'green'))
+            print(colored("--- Code block: ---", 'green'))
             print(colored(code_block, 'yellow'))
+            print(colored("-------------------", 'green'))
             print()
 
             file_path = os.path.join(root_path, file_path)
