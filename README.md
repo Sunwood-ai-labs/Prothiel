@@ -121,7 +121,8 @@ def divide(a, b):
 コードブロックを抽出してPythonファイルに整理するには、次のコマンドを実行します:
 
 ```
-prothiel example.md math_functions
+prothiel --markdown_file=example/01_math_functions.md --root_path=example/01_math_functions
+prothiel --markdown_file=example/02_Project_Example.md --root_path=example/02_Project_Example
 ```
 
 Prothielは次のファイル構造を作成します:
