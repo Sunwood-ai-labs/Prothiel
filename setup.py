@@ -1,4 +1,5 @@
 from setuptools import setup, find_packages
+import prothiel
 
 # READMEファイルの内容を読み込む
 with open("README.md", "r", encoding="utf-8") as fh:
@@ -6,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='prothiel',
-    version='0.1.2',
+    version=prothiel.__version__,
     # PyPIに表示される長い説明文
     long_description=long_description,
     # 長い説明文のフォーマット
