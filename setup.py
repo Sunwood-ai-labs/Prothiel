@@ -1,5 +1,4 @@
 from setuptools import setup, find_packages
-from prothiel.version import __version__
 
 # READMEファイルの内容を読み込む
 with open("README.md", "r", encoding="utf-8") as fh:
@@ -7,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='prothiel',
-    version=__version__,
+    version="0.1.11",
     # PyPIに表示される長い説明文
     long_description=long_description,
     # 長い説明文のフォーマット
@@ -16,7 +15,7 @@ setup(
     url="https://github.com/Sunwood-ai-labs/Prothiel",
     author='Maki',
     author_email='sunwood.ai.labs@gmail.com',
-    packages=['prothiel'],
+    packages=find_packages(),
     install_requires=[
         'termcolor',
         'art',
