@@ -16,7 +16,7 @@ setup(
     url="https://github.com/Sunwood-ai-labs/Prothiel",
     author='Maki',
     author_email='sunwood.ai.labs@gmail.com',
-    packages=find_packages(),
+    packages=['prothiel'],
     install_requires=[
         'termcolor',
         'art',
