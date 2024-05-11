@@ -12,7 +12,7 @@ def main():
     parser.add_argument('--markdown_file', default='.Prothiel.md', help='読み込むMarkdownファイルのパス')
     parser.add_argument('--root_path', default='./', help='抽出したファイルを保存するルートパス')
     parser.add_argument('--file-path-pattern', default=r'### (.*?)\n', help='ファイルパスを抽出するための正規表現パターン')
-    parser.add_argument('--code-block-pattern', default=r'```python\n(.*?)\n```', help='コードブロックを抽出するための正規表現パターン')
+    parser.add_argument('--code-block-pattern', default=r'```(python|markdown)\n(.*?)\n```', help='コードブロックを抽出するための正規表現パターン')
     args = parser.parse_args()
     
     tprint("Prothiel - v{:}".format(str(prothiel.__version__)))
