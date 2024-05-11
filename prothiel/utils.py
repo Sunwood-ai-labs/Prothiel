@@ -5,5 +5,5 @@ def create_directory(directory):
         os.makedirs(directory)
 
 def write_file(file_path, content):
-    with open(file_path, 'w') as file:
+    with open(file_path, 'w', encoding="utf-8") as file:
         file.write(content)
